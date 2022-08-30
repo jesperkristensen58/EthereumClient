@@ -92,7 +92,38 @@ const Home: NextPage = () => {
         <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
           {/* Replace with your content */}
           <div className="px-4 py-6 sm:px-0">
-            Hello World!
+
+          <div className="grid grid-rows-4 grid-cols-3 gap-4 justify-items-center">
+
+          <div className="col-span-3">
+            <article className="prose lg:prose-xl">
+              <h2 className="text-3xl font-bold tracking-tight text-gray-900">Welcome</h2>
+            </article>
+          </div>
+
+          <div className="col-start-1 col-end-1"></div>
+
+          <div className="flex justify-center col-start-2 col-end-2">
+              <div>
+            <input
+              type="text"
+              style={{width: "600px", height: "60px", marginTop: "20px", borderWidth: "2px"}}
+              className="block pl-12 pr-12 focus:border-indigo-500 focus:ring-indigo-500 text-lg"
+              placeholder="ERC20 token address"
+            />
+        </div>
+
+        </div>
+
+        <div className="col-start-3 col-end-3"></div>
+        
+       {/* next row */}
+       <div className="col-span-3"></div>
+       <div className="col-span-3">
+       <h2 className="text-3xl font-bold tracking-tight text-gray-900">Plots</h2>
+      </div>
+      </div>
+
           </div>
           {/* /End replace */}
         </div>
