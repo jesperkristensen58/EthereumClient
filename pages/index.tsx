@@ -319,8 +319,8 @@ const Home: NextPage = () => {
                 setTokenlogo(metadata.logo);
               }}
             />
-            <p className="text-sm font-medium text-gray-40"><div>{tokenname} ({tokensymbol} <img class="inline" style={{height: "15px", marginBottom: "4px"}} src={tokenlogo}></img>: {contractAddress})</div></p>
-            <p className="text-sm font-medium text-gray-40"><a href="https://etherscan.io/tokens" className="text-blue-500 ml-4 underline">top erc20 tokens</a></p>
+            <p className="text-sm font-medium text-gray-400" style={{marginLeft: "16px"}}><div>{tokenname} - {tokensymbol} <img class="inline" style={{height: "15px", marginBottom: "4px"}} src={tokenlogo}></img></div></p>
+            <p className="text-sm font-medium"><a href="https://etherscan.io/tokens" className="text-blue-500 ml-4 underline">top erc20 tokens</a></p>
         </div>
         </div>
 
